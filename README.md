@@ -6,6 +6,7 @@ NOTE: THE PUBLICATION ACCOMPANYING THIS MODEL IS NOT YET PUBLISHED.
 
 This repository contains the model weights for the ISGPP segmentation model, which segments cancer tissue in whole slide images of H&E sections from PDAC samples after neoadjuvant therapy. This model is described in the following publication (UPCOMING).
 
+Please cite this paper if you are using the ISGPP model for your research.
 
 ## Model Architecture
 The model is based on a U-net with a densenet161 encoder. The model was defined in the segmentation-models for PyTorch library (https://pypi.org/project/segmentation-models-pytorch/).
