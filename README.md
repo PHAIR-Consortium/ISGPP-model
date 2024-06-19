@@ -1,14 +1,17 @@
-# Model Weights for the ISGPP-2 model for the segmentation of Pancreatic Ductal Adenocarcinoma (PDAC) after neoadjuvant therapy
+# Model Weights for the ISGPP model for the segmentation of Pancreatic Ductal Adenocarcinoma (PDAC) after neoadjuvant therapy
 
 ## Overview
-This repository contains the model weights for ISGPP-2 segmentation model, which segments cancer tissue in whole slide images of H&E sections from PDAC samples after neoadjuvant therapy.
+
+NOTE: THE PUBLICATION ACCOMPANYING THIS MODEL IS NOT YET PUBLISHED. 
+
+This repository contains the model weights for the ISGPP segmentation model, which segments cancer tissue in whole slide images of H&E sections from PDAC samples after neoadjuvant therapy. This model is described in the following publication (UPCOMING).
 
 
 ## Model Architecture
 The model is based on a U-net with a densenet161 encoder. The model was defined in the segmentation-models for PyTorch library (https://pypi.org/project/segmentation-models-pytorch/).
 
 ## Training Data
-For training, 528 digitized histopathological whole slide images (hematoxylin & eosin staining) from resected pancreatic cancer specimen from 14 centers in 7 countries in Europe, North America, Australia, and Asia were included. Four different scanner types were used: Philips, Hamamatsu, 3DHistech and Leica. More details about the dataset and model training can be found in our publication: Am J Surg Pathol (2024). 
+For training, 528 digitized histopathological whole slide images (hematoxylin & eosin staining) from resected pancreatic cancer specimen from 14 centers in 7 countries in Europe, North America, Australia, and Asia were included. Four different scanner types were used: Philips, Hamamatsu, 3DHistech and Leica. More details about the dataset and model training can be found in our publication: (UPCOMING) Am J Surg Pathol (2024). 
 
 ## Training Procedure
 The model was trained using binary-cross-entropy-loss with ADAM optimizer for 40 epochs. The learning rate was set to 0.0001, and a learning rate decay every 5 epochs. 
