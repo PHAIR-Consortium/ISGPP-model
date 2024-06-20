@@ -2,7 +2,7 @@
 
 ## Overview
 
-NOTE: THE PUBLICATION ACCOMPANYING THIS MODEL IS NOT YET PUBLISHED. MODEL WEIGHTS WILL BE ADDED WHEN PUBLICATION IS ONLINE. 
+NOTE: THE PUBLICATION ACCOMPANYING THIS MODEL IS NOT YET PUBLISHED.
 
 This repository contains the model weights for the ISGPP segmentation model, which segments cancer tissue in whole slide images of H&E sections from PDAC samples after neoadjuvant therapy. This model is described in the following publication (UPCOMING).
 
