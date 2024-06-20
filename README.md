@@ -46,7 +46,8 @@ pred, _ = model(image_loader(patch))
 
 ```
 
-output:
+Output: <br/>
+<br/>
 Class 0: background <br/>
 class 1: Normal ducts <br/>
 Class 2: Cancer ducts <br/>
