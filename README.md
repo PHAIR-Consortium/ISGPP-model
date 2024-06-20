@@ -47,12 +47,12 @@ pred, _ = model(image_loader(patch))
 ```
 
 output:
-Class 0: background
-class 1: Normal ducts
-Class 2: Cancer ducts
-Class 3: residual parenchyma
+Class 0: background <br/>
+class 1: Normal ducts <br/>
+Class 2: Cancer ducts <br/>
+Class 3: residual parenchyma <br/>
 Class 4: fat
 
 
-For more information:
+For more information: <br/>
 Boris Janssen (b.v.janssen@amsterdamumc.nl) or Onno de Boer (o.j.deboer@amsterdamumc.nl)
