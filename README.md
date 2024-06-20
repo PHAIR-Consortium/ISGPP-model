@@ -22,7 +22,7 @@ The meta-analysis of the cross-validations showed a mean F1 score of 0.78 (0.71 
 
 ## Usage Instructions
 
-Size inputpatches: 512 x 512 x 3 <br/>
+Size inputpatches: 512 \* 512 \* 3 <br/>
 Resolution inputpatches: 2px/micron <br/>
 Normalize inputpatches using: torch.transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
 
